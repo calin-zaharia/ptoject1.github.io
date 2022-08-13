@@ -2,6 +2,51 @@
 
 /* Footer section */
 
+/* Home */
+.hero {
+    height: 500px;
+    background: url('../images/hero-background.png');
+    background-size: cover;
+}
+.hero .container-xl {
+    position: relative;
+    height: inherit;
+}
+.hero-text {
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+.hero-text .hero-text-small {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6531a1;
+    margin: 0;
+}
+.hero-text h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #321151;
+}
+.hero-text .hero-text-paragraph {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #321151;
+}
+
+
+
+.container-experience {
+    border-top: 3px solid blueviolet;
+    padding: 30px 0 50px;
+}
+.container-experience h5 {
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+
+
 
 
 /* Contact */
