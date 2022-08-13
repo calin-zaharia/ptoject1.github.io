@@ -12,6 +12,8 @@
     <!-- FontAwesome icons -->
     <script src="https://kit.fontawesome.com/f89f190e3e.js" crossorigin="anonymous"></script>
 
+    <!-- Local CSS -->
+    <link href="css/style.css"  rel="stylesheet" >
 
 </head>
 <body>
@@ -19,7 +21,7 @@
     <!-- Menu was created with the help from Bootstrap examples -->
     <!-- https://getbootstrap.com/docs/5.2/components/navbar/#nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <a class="navbar-brand" href="/index.html">
                 <!-- Logo svg from GitHub -->
@@ -33,12 +35,11 @@
             </button>
             <!-- I added dropdown for responsive menu  -->
 
+            <!-- Main menu -->
             <div class="collapse navbar-collapse ml-auto" id="navbarTogglerDemo02">
                 <ul class="navbar-nav font-size-lg ms-auto align-items-end">
-                    <!-- ms-auto align to right the links on desktop and align-items-end align to right on responsive(collapse menu) -->
                     <li class="nav-item">
                         <a class="nav-link fs-4 active" aria-current="page" href="/index.html">Home</a>
-                        <!-- font size fs-4 -->
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fs-4" aria-current="page" href="/aboutme.html">About me</a>
@@ -52,8 +53,63 @@
         </div>
     </nav>
 
-    <h1>Contact me</h1>
-    
+    <!-- Main content -->
+    <div class="container-md">
+        
+        <div class="contact-details">
+            <h1>Contact me</h1>
+
+            <div class="row justify-content-md-center">
+                <div class="col-md-3">
+                    <p><b>Contact Number</b></p>
+                    <a href="tel:+4407533947713">+44 07533 947 713</a>
+                </div>
+                <div class="col-md-3">
+                    <p><b>GitHub</b></p>
+                    <a href="https://github.com/narotov/project1">Link to personal project</a>
+                </div>
+                <div class="col-md-3">
+                    <p><b>Mail Me</b></p>
+                    <a href="mailto: calin.zaharia.mail@gmail.com"> calin.zaharia.mail@gmail.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-md">
+            <form>
+                <div class="mb-3">
+                    <label for="name1" class="form-label">Name</label>
+                    <input type="text" name="name" id="name1" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+                <div class="mb-3">
+                    <label for="message1" class="form-label">Message</label>
+                    <textarea class="form-control" name="comments" placeholder="Leave a message here" id="message1" style="height: 100px"></textarea>
+                </div>
+                <div class="form-check form-check-inline" style="padding-left: 0;">
+                    <label class="form-label">Subcribe to Newsletter</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="subscribe1" value="subscribe1">
+                    <label class="form-check-label" for="subscribe1">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="subscribe2" value="subscribe2">
+                    <label class="form-check-label" for="subscribe2">No</label>
+                </div>
+                <div class="mb-3">
+                    <br>
+                    <button type="submit" class="btn btn-dark btn-md">Submit Form</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Footer Section -->
     <footer>
         <div class="container-xl ">
             <hr class="solid">
