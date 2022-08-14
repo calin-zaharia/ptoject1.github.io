@@ -1,4 +1,6 @@
-
+.navbar.navbar-dark {
+    background-color: #6531a1!important;
+}
 
 /* Footer section */
 footer ul li i {
@@ -140,6 +142,10 @@ footer ul li i:hover {
     box-shadow: none!important;
 }
 
+.progress-section .progress-bar {
+    background-color: #6528e0;
+}
+
 
 
 
@@ -168,6 +174,26 @@ footer ul li i:hover {
 form {
     padding-bottom: 50px;
 }
+form .btn-dark {
+    background-color: #5a23c8;
+    border-color: #5a23c8;
+    box-shadow: none!important;
+}
+form .btn-dark:hover {
+    background-color: #6528e0;
+    border-color: #6528e0;
+    box-shadow: none!important;
+}
+form .form-check-input {
+    box-shadow: none!important;
+}
+form .form-check-input:checked {
+    background-color: #6528e0;
+    border-color: #6528e0;
+}
+
+
+
 
 /* Resposive */
 @media (min-width: 1200px) {
@@ -177,6 +203,8 @@ form {
         margin-right: auto;
     }
 
+}
+@media (max-width: 1200px) {
     .aboutme-section img {
         max-width: 350px;
     }
@@ -193,6 +221,7 @@ form {
         text-align: left;
         padding-left: 12px;
         padding-right: 12px;
+        padding-bottom: 40px;
     }
 
     .aboutme-section {
