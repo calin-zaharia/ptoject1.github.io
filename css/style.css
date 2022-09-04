@@ -2,7 +2,6 @@
     background-color: #6531a1!important;
 }
 
-/* Footer section */
 footer ul li i {
     color: black;
     transition: color 0.7s ease;
@@ -14,7 +13,6 @@ footer ul li i:hover {
     color: blueviolet;
 }
 
-/* Home */
 .hero {
     height: 350px;
     background: url('../images/hero-background.png');
@@ -95,31 +93,31 @@ footer ul li i:hover {
 }
 
 /* About me */
-.aboutme-box {
+.about-me-box {
     margin: 15px 0 25px;
     padding: 5px;
     border-radius: 15px;
     border: 1px solid #6531a1;
 }
-.aboutme-box a {
+.about-me-box a {
     color: black;
 }
-.aboutme-box a:hover {
+.about-me-box a:hover {
     text-decoration: none;
 }
 
-.aboutme-section h1 {
+.about-me-section h1 {
     font-size: 30px;
     position: relative;
     padding: 10px 0 3px;
     margin-bottom: 35px;
 }
-.aboutme-section h1 span {
+.about-me-section h1 span {
     font-size: 16px;
     color: #6528e0;
     display: block;
 }
-.aboutme-section h1 sub {
+.about-me-section h1 sub {
     position: absolute;
     top: 100%;
     left: 0;
@@ -127,7 +125,7 @@ footer ul li i:hover {
     height: 2px;
     background-color: #6528e0;
 }
-.aboutme-section img{
+.about-me-section img{
     width: 100%;
     max-width: 450px;
 }
@@ -205,13 +203,13 @@ form .form-check-input:checked {
 
 }
 @media (max-width: 1200px) {
-    .aboutme-section img {
+    .about-me-section img {
         max-width: 350px;
     }
 }
 @media (max-width: 992px) {
 
-    .aboutme-section img {
+    .about-me-section img {
         max-width: 250px;
     }
 
@@ -224,14 +222,14 @@ form .form-check-input:checked {
         padding-bottom: 40px;
     }
 
-    .aboutme-section {
+    .about-me-section {
         display: block!important;
     }
-    .aboutme-section img {
+    .about-me-section img {
         max-width: 250px;
         margin: auto;
     }
-    .aboutme-section .flex-grow-1.ms-4 {
+    .about-me-section .flex-grow-1.ms-4 {
         margin-left: 0px!important;
     }
 
