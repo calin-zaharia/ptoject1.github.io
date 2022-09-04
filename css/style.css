@@ -17,6 +17,7 @@ footer ul li i:hover {
     height: 350px;
     background: url('../images/hero-background.png');
     background-size: cover;
+    overflow: hidden;
 }
 .hero .container-xl {
     position: relative;
